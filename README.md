@@ -14,3 +14,4 @@ Check out the [blog post](http://mherman.org/blog/2016/11/05/developing-a-restfu
 ## Update
 
 Added Mongoose 
+Added Joi for Validation
