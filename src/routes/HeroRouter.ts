@@ -48,7 +48,11 @@ export class HeroRouter {
   /**
    * Create one
    */
-  public async createOne(req: Request | any, res: Response, next: NextFunction) {
+  public async createOne(
+    req: Request | any,
+    res: Response,
+    next: NextFunction
+  ) {
     try {
       const hero = new Heroes(req.value.body);
       const newHero = await hero.save();
